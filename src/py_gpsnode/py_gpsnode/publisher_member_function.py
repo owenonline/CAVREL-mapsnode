@@ -22,6 +22,7 @@ from geometry_msgs.msg import PoseStamped
 from sensor_msgs.msg import NavSatFix
 
 WAYPOINT_REACHED_THRESHOLD = 0.0000000002
+MAPS_PLATFORM_API_KEY = None
 
 class maps_node(Node):
 
@@ -30,7 +31,7 @@ class maps_node(Node):
 
         # get route
         header = {
-            "X-Goog-Api-Key": "API KEY HERE",
+            "X-Goog-Api-Key": MAPS_PLATFORM_API_KEY,
             "X-Goog-FieldMask": "*"
         }
 
