@@ -1,0 +1,4 @@
+[console_scripts]
+demo = py_gpsnode.demo_node:main
+talker = py_gpsnode.publisher_member_function:main
+

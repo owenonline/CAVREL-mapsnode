@@ -1,0 +1,128 @@
+[0.373s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'py_gpsnode'][0m
+[0.373s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efeca2a98e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['py_gpsnode'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efeca2a98e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7efeca2a9e50>)[0m
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/owenb/workareas/CAVREL/gps-node'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_gpsnode) by extension 'ros'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/py_gpsnode' with type 'ros.ament_python' and name 'py_gpsnode'[0m
+[0.420s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.420s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.420s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.420s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.420s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.442s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.442s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.446s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 256 installed packages in /opt/ros/foxy[0m
+[0.447s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_args' from command line to 'None'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_target' from command line to 'None'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_gpsnode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'py_gpsnode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode', 'merge_install': False, 'path': '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode', 'symlink_install': False, 'test_result_base': None}[0m
+[0.513s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.520s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.521s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode' with build type 'ament_python'
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_gpsnode', 'ament_prefix_path')
+[0.527s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/ament_prefix_path.ps1'
+[0.528s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/ament_prefix_path.dsv'
+[0.529s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/ament_prefix_path.sh'
+[0.532s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.836s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode'
+[0.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.839s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.465s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode': PYTHONPATH=/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/prefix_override:/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_gpsnode build --build-base /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build install --record /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/install.log --install-scripts $base/lib/py_gpsnode --single-version-externally-managed[0m
+[1.844s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode' returned '0': PYTHONPATH=/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/prefix_override:/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_gpsnode build --build-base /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build install --record /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/install.log --install-scripts $base/lib/py_gpsnode --single-version-externally-managed[0m
+[1.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode' for CMake module files
+[1.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode' for CMake config files
+[1.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib'
+[1.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/bin'
+[1.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/pkgconfig/py_gpsnode.pc'
+[1.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages'
+[1.851s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_gpsnode', 'pythonpath')
+[1.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/pythonpath.ps1'
+[1.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/pythonpath.dsv'
+[1.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/hook/pythonpath.sh'
+[1.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/bin'
+[1.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(py_gpsnode)
+[1.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/package.ps1'
+[1.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/package.dsv'
+[1.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/package.sh'
+[1.860s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/package.bash'
+[1.860s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/py_gpsnode/package.zsh'
+[1.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/share/colcon-core/packages/py_gpsnode)
+[1.861s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.862s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.862s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.862s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.959s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.959s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.959s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.959s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.965s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files[0m
+[1.966s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/owenb/workareas/CAVREL/gps-node/install/local_setup.ps1'
+[1.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/owenb/workareas/CAVREL/gps-node/install/_local_setup_util_ps1.py'
+[1.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/owenb/workareas/CAVREL/gps-node/install/setup.ps1'
+[1.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/owenb/workareas/CAVREL/gps-node/install/local_setup.sh'
+[1.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/owenb/workareas/CAVREL/gps-node/install/_local_setup_util_sh.py'
+[1.974s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/owenb/workareas/CAVREL/gps-node/install/setup.sh'
+[1.975s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/owenb/workareas/CAVREL/gps-node/install/local_setup.bash'
+[1.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/owenb/workareas/CAVREL/gps-node/install/setup.bash'
+[1.977s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/owenb/workareas/CAVREL/gps-node/install/local_setup.zsh'
+[1.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/owenb/workareas/CAVREL/gps-node/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.948s] Invoking command in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode': PYTHONPATH=/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/prefix_override:/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_gpsnode build --build-base /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build install --record /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/install.log --install-scripts $base/lib/py_gpsnode --single-version-externally-managed
+[1.244s] running egg_info
+[1.255s] writing ../../build/py_gpsnode/py_gpsnode.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../build/py_gpsnode/py_gpsnode.egg-info/dependency_links.txt
+[1.256s] writing entry points to ../../build/py_gpsnode/py_gpsnode.egg-info/entry_points.txt
+[1.256s] writing requirements to ../../build/py_gpsnode/py_gpsnode.egg-info/requires.txt
+[1.256s] writing top-level names to ../../build/py_gpsnode/py_gpsnode.egg-info/top_level.txt
+[1.286s] reading manifest file '../../build/py_gpsnode/py_gpsnode.egg-info/SOURCES.txt'
+[1.287s] writing manifest file '../../build/py_gpsnode/py_gpsnode.egg-info/SOURCES.txt'
+[1.287s] running build
+[1.287s] running build_py
+[1.287s] copying py_gpsnode/publisher_member_function.py -> /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build/lib/py_gpsnode
+[1.287s] running install
+[1.288s] running install_lib
+[1.289s] copying /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build/lib/py_gpsnode/publisher_member_function.py -> /home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages/py_gpsnode
+[1.289s] byte-compiling /home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages/py_gpsnode/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.291s] running install_data
+[1.291s] running install_egg_info
+[1.293s] removing '/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages/py_gpsnode-0.0.0-py3.8.egg-info' (and everything under it)
+[1.293s] Copying ../../build/py_gpsnode/py_gpsnode.egg-info to /home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages/py_gpsnode-0.0.0-py3.8.egg-info
+[1.295s] running install_scripts
+[1.309s] Installing demo script to /home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/py_gpsnode
+[1.310s] Installing talker script to /home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/py_gpsnode
+[1.310s] writing list of installed files to '/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/install.log'
+[1.334s] Invoked command in '/home/owenb/workareas/CAVREL/gps-node/src/py_gpsnode' returned '0': PYTHONPATH=/home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/prefix_override:/home/owenb/workareas/CAVREL/gps-node/install/py_gpsnode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_gpsnode build --build-base /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/build install --record /home/owenb/workareas/CAVREL/gps-node/build/py_gpsnode/install.log --install-scripts $base/lib/py_gpsnode --single-version-externally-managed
