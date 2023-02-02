@@ -69,6 +69,7 @@ class maps_node(Node):
         }
         resp = requests.post("https://routes.googleapis.com/directions/v2:computeRoutes", json=body, headers=header)
         route = json.loads(resp.text)
+        print(route)
         self.lower_left = (route['routes'][0]['viewport']['low']['latitude'], route['routes'][0]['viewport']['low']['longitude'])
         self.upper_right = (route['routes'][0]['viewport']['high']['latitude'], route['routes'][0]['viewport']['high']['longitude'])
 
@@ -114,7 +115,7 @@ class maps_node(Node):
         closest_node = nodes[closest]
         self.get_logger().info('current location: {} {} closest node: {} {}'.format(node[0], node[1], closest_node[0], closest_node[1]))
         if dist_2[closest] < WAYPOINT_REACHED_THRESHOLD:
-            nodes.pop(closest)
+            self.coords.pop(closest)
         return closest_node 
 
 
